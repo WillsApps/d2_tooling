@@ -2013,12 +2013,18 @@ upgrade basic armor	1			100					2	armo,bas	imra,qty=1						useitem,mod,exc			100
 upgrade exceptional weapon (staff)	1			100					2	staf,exc	imra,qty=1						useitem,mod,eli			100	cast2	100		20	20																					imra,qty=1																																																										0
 upgrade exceptional weapon	1			100					2	weap,exc	imra,qty=1						useitem,mod,eli			100																										imra,qty=1																																																										0
 upgrade exceptional armor	1			100					2	armo,exc	imra,qty=1						useitem,mod,eli			100																										imra,qty=1																																																										0
+generate set weapon of same type (basic, staff)	1			100					2	staf,bas	gps						usetype,set	99		100																										gps																																																										0
 generate set weapon of same type (basic)	1			100					2	weap,bas	gps						usetype,set	99		100																										gps																																																										0
+generate set weapon of same type (exceptional, staff)	1			100					2	staf,exc	gps						usetype,set	99		100																										gps																																																										0
 generate set weapon of same type (exceptional)	1			100					2	weap,exc	gps						usetype,set	99		100																										gps																																																										0
+generate set weapon of same type (elite, staff)	1			100					2	staf,eli	gps						usetype,set	99		100																										gps																																																										0
 generate set weapon of same type (elite)	1			100					2	weap,eli	gps						usetype,set	99		100																										gps																																																										0
 generate set armor of same type	1			100					2	armo	gps						usetype,set	99		100																										gps																																																										0
 generate set ring	1			100					2	rin	gps						rin,set	99		100																										gps																																																										0
 generate set amulet	1			100					2	amu	gps						amu,set	99		100																										gps																																																										0
+generate unique weapon of same type (basic, staff)	1			100					2	staf,bas	ops						usetype,uni	99		100																										ops																																																										0
+generate unique weapon of same type (exceptional, staff)	1			100					2	staf,exc	ops						usetype,uni	99		100																										ops																																																										0
+generate unique weapon of same type (elite, staff)	1			100					2	staf,eli	ops						usetype,uni	99		100																										ops																																																										0
 generate unique weapon of same type (basic)	1			100					2	weap,bas	ops						usetype,uni	99		100																										ops																																																										0
 generate unique weapon of same type (exceptional)	1			100					2	weap,exc	ops						usetype,uni	99		100																										ops																																																										0
 generate unique weapon of same type (elite)	1			100					2	weap,eli	ops						usetype,uni	99		100																										ops																																																										0
@@ -2029,3 +2035,21 @@ generate unique jewel	1			100					2	jew	ops						jew,uni	99		100																
 generate unique small charm	1			100					2	cm1	ops						cm1,uni	99		100																										ops																																																										0
 generate unique large charm	1			100					2	cm2	ops						cm2,uni	99		100																										ops																																																										0
 generate unique grand charm	1			100					2	cm3	ops						cm3,uni	99		100																										ops																																																										0
+reroll small charm	1			100					2	cm1	rera,qty=1						cm3,mag			100																										rera,qty=1																																																										0
+reroll large charm	1			100					2	cm2	rera,qty=1						cm3,mag			100																										rera,qty=1																																																										0
+reroll grand charm	1			100					2	cm3	rera,qty=1						cm3,mag			100																										rera,qty=1																																																										0
+clone item	1			100					2	cm3	r14g,qty=1						useitem			100																										useitem																													r14s,qty=1																													0
+perfect gem -> perfect ruby (5)	1			100					2	r01g,qty=1	ggm4,qty=5						gprs,qty=5			100																										r01s,qty=1																																																										0
+perfect gem -> perfect topaz (5)	1			100					2	r02g,qty=1	ggm4,qty=5						gpys,qty=5			100																										r02s,qty=1																																																										0
+perfect gem -> perfect emerald (5)	1			100					2	r03g,qty=1	ggm4,qty=5						gpgs,qty=5			100																										r03s,qty=1																																																										0
+perfect gem -> perfect sapphire (5)	1			100					2	r04g,qty=1	ggm4,qty=5						gpbs,qty=5			100																										r04s,qty=1																																																										0
+perfect gem -> perfect amethyst (5)	1			100					2	r05g,qty=1	ggm4,qty=5						gpvs,qty=5			100																										r05s,qty=1																																																										0
+perfect gem -> perfect diamond (5)	1			100					2	r06g,qty=1	ggm4,qty=5						gpws,qty=5			100																										r06s,qty=1																																																										0
+perfect gem -> perfect skull (5)	1			100					2	r07g,qty=1	ggm4,qty=5						skzs,qty=5			100																										r07s,qty=1																																																										0
+perfect gem -> perfect ruby (1)	1			100					3	r01g,qty=1	ggm4,qty=5	key,qty=1					gprs,qty=5			100																										r01s,qty=1																																																										0
+perfect gem -> perfect topaz (1)	1			100					3	r02g,qty=1	ggm4,qty=5	key,qty=1					gpys,qty=5			100																										r02s,qty=1																																																										0
+perfect gem -> perfect emerald (1)	1			100					3	r03g,qty=1	ggm4,qty=5	key,qty=1					gpgs,qty=5			100																										r03s,qty=1																																																										0
+perfect gem -> perfect sapphire (1)	1			100					3	r04g,qty=1	ggm4,qty=5	key,qty=1					gpbs,qty=5			100																										r04s,qty=1																																																										0
+perfect gem -> perfect amethyst (1)	1			100					3	r05g,qty=1	ggm4,qty=5	key,qty=1					gpvs,qty=5			100																										r05s,qty=1																																																										0
+perfect gem -> perfect diamond (1)	1			100					3	r06g,qty=1	ggm4,qty=5	key,qty=1					gpws,qty=5			100																										r06s,qty=1																																																										0
+perfect gem -> perfect skull (1)	1			100					3	r07g,qty=1	ggm4,qty=5	key,qty=1					skzs,qty=5			100																										r07s,qty=1																																																										0
